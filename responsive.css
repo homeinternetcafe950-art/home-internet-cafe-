@@ -1,0 +1,226 @@
+/* ==========================================================================
+   HOME INTERNET CAFE — Responsive Rules
+   Breakpoints tested at: 320 / 375 / 390 / 414 / 768 / 1024 / 1440 / 1920
+   ========================================================================== */
+
+/* ---------- ≤1024px : tablet ---------- */
+@media (max-width: 1024px) {
+  .category-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .steps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .value-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2.2rem;
+  }
+
+  .hero .container {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-ticket-wrap {
+    order: -1;
+    margin-bottom: 1rem;
+  }
+
+  .hero-ticket {
+    width: min(320px, 100%);
+    transform: rotate(-1.5deg);
+  }
+
+  .about-lead,
+  .split-panel,
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------- ≤880px : nav collapses ---------- */
+@media (max-width: 880px) {
+  .nav-toggle {
+    display: inline-flex;
+  }
+
+  .nav-primary {
+    position: fixed;
+    inset: var(--header-h) 0 0 0;
+    background: var(--ink);
+    flex-direction: column;
+    align-items: stretch;
+    padding: 1.6rem 1.5rem 2rem;
+    gap: 1.6rem;
+    transform: translateX(100%);
+    transition: transform 0.25s ease;
+    overflow-y: auto;
+  }
+
+  .nav-primary.is-open {
+    transform: translateX(0);
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
+  }
+
+  .nav-links a {
+    display: block;
+    width: 100%;
+    padding: 0.9rem 0.2rem;
+    font-size: 1.05rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .nav-links a::after {
+    display: none;
+  }
+
+  .header-ctas {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.7rem;
+  }
+
+  .header-ctas .btn {
+    width: 100%;
+  }
+}
+
+/* ---------- ≤768px : mobile ---------- */
+@media (max-width: 768px) {
+  .category-grid,
+  .value-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .steps {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cta-band {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .cta-band-ctas {
+    justify-content: center;
+  }
+
+  .trust-strip {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.6rem;
+  }
+
+  .hero-ctas .btn,
+  .hero-ctas {
+    width: 100%;
+  }
+
+  .hero-ctas {
+    flex-direction: column;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-field.full {
+    grid-column: 1;
+  }
+
+  .combo-prices {
+    flex-wrap: wrap;
+  }
+}
+
+/* ---------- ≤414px : small phones ---------- */
+@media (max-width: 414px) {
+  .container {
+    padding-inline: 1.1rem;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .header-ctas .btn-whatsapp {
+    padding: 0.85rem 1.2rem;
+  }
+
+  .brand span {
+    display: none;
+  }
+
+  .brand small {
+    display: none;
+  }
+}
+
+/* ---------- ≤320px : narrowest supported ---------- */
+@media (max-width: 320px) {
+  h1 {
+    font-size: 1.85rem;
+  }
+
+  .hero-ticket {
+    width: 100%;
+  }
+
+  .whatsapp-float {
+    width: 50px;
+    height: 50px;
+    right: 1rem;
+    bottom: 1rem;
+  }
+
+  .back-to-top {
+    width: 40px;
+    height: 40px;
+    right: 1rem;
+    bottom: 5rem;
+  }
+}
+
+/* ---------- ≥1440px : large desktop refinement ---------- */
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1260px;
+  }
+
+  .hero .container {
+    gap: 5rem;
+  }
+}
+
+/* No horizontal scroll guard */
+html,
+body {
+  overflow-x: hidden;
+}
+
+.container,
+.hero,
+.section {
+  width: 100%;
+}

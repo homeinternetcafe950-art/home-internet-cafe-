@@ -1,0 +1,18 @@
+# Home Internet Cafe
+
+> Local digital services company serving individuals and small businesses in Temba and surrounding areas: printing, CV typing, online applications, computer support, web design, and website maintenance.
+
+Home Internet Cafe is based at 950 Hans Kekana View, South Africa. Contact via WhatsApp on 084 592 4683 or email homeinternetcafe950@gmail.com.
+
+## Pages
+
+- [Home](https://homeinternetcafe.co.za/): Overview of all services and pricing highlights.
+- [Services & Pricing](https://homeinternetcafe.co.za/services): Full price list for Tech & Software, Printing & Copies, CV & Admin Typing, and Digital & Web Services.
+- [Applications & CV](https://homeinternetcafe.co.za/applications): CV typing and online application services for job seekers in Temba.
+- [Website Maintenance & Support](https://homeinternetcafe.co.za/maintenance): Monthly website care and support plans.
+- [About](https://homeinternetcafe.co.za/about): Business background and service values.
+- [Contact](https://homeinternetcafe.co.za/contact): Contact details and quote request form.
+
+## Notes
+
+All prices are in South African Rand (ZAR) and are current as displayed on the live site. For the latest pricing, refer to the Services & Pricing and Website Maintenance & Support pages directly rather than cached summaries.
