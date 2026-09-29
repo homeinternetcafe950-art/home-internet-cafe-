@@ -2,7 +2,7 @@
   "name": "Home Internet Cafe",
   "short_name": "Home Internet Cafe",
   "description": "Computer support, Windows & Office installation, printing, CV typing and online application services.",
-  "start_url": "/",
+  "start_url": "index.html",
   "scope": "/",
   "display": "standalone",
   "background_color": "#f4f5f1",
